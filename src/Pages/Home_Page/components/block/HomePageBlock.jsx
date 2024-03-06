@@ -43,7 +43,7 @@ const HomePageBlock = () => {
             <div className=" bg-white rounded-lg">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-56"
+                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
                   src={boi}
                   alt=""
                   style={{
@@ -70,7 +70,7 @@ const HomePageBlock = () => {
             <div className=" bg-white rounded-lg">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-56"
+                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
                   src={lifegate}
                   alt=""
                   style={{
@@ -97,7 +97,7 @@ const HomePageBlock = () => {
             <div className=" bg-white rounded-lg">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-56"
+                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
                   src={dd}
                   alt=""
                   style={{
@@ -111,7 +111,7 @@ const HomePageBlock = () => {
                 <div>
                   <p>Design Digest</p>
                   <p className="text-xs text-gray-400 font-light">
-                  Kickstarting Design Digest with their brand identity.
+                    Kickstarting Design Digest with their brand identity.
                   </p>
                 </div>
                 <div className=" bg-white rounded-full">
@@ -124,7 +124,7 @@ const HomePageBlock = () => {
             <div className=" bg-white rounded-lg">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-56"
+                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
                   src={rtg}
                   alt=""
                   style={{
@@ -138,7 +138,7 @@ const HomePageBlock = () => {
                 <div>
                   <p>The Purple Turtles</p>
                   <p className="text-xs text-gray-400 font-light">
-                  Artisanal exploration to launch an outdoor decor collection.
+                    Artisanal exploration to launch an outdoor decor collection.
                   </p>
                 </div>
                 <div className=" bg-white rounded-full">
