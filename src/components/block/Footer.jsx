@@ -18,7 +18,7 @@ const Footer = () => {
                 <br /> on your next project?
               </p>
             </div>
-            <div className=" flex justify-center mt-10  ">
+            <div className=" flex justify-center items-center mt-10 mr-5  ">
               <button className=" bg-white text-black px-5 py-3 font-sans font-medium rounded-full">
                 Get in touch
               </button>
@@ -51,8 +51,8 @@ const Footer = () => {
               <p>Follow Me</p>
             </div>
             <div className="flex ">
-              <FaLinkedin size={30} />{" "}
-              <FaBehanceSquare size={30} className=" text-blue-500" />
+              <FaLinkedin size={30} className=" cursor-pointer"/>
+              <FaBehanceSquare size={30} className=" text-blue-500 cursor-pointer" />
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Footer = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <p className=" ">© 2023 maria mathew designstudio</p>
+          <p>© 2023 maria mathew designstudio</p>
         </div>
       </div>
     </div>

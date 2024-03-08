@@ -60,8 +60,8 @@ const HomePageBlock = () => {
                     Lounching a new brand to embody BOI's next step.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full">
-                  <BsArrowRightCircle size={30} color="gray" />
+                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                  <BsArrowRightCircle size={30} />
                 </div>
               </div>
             </div>
@@ -87,8 +87,8 @@ const HomePageBlock = () => {
                     Reshaping LifeGate's image among digital natives.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full">
-                  <BsArrowRightCircle size={30} color="gray" />
+                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                  <BsArrowRightCircle size={30} />
                 </div>
               </div>
             </div>
@@ -114,8 +114,8 @@ const HomePageBlock = () => {
                     Kickstarting Design Digest with their brand identity.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full">
-                  <BsArrowRightCircle size={30} color="gray" />
+                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                  <BsArrowRightCircle size={30} />
                 </div>
               </div>
             </div>
@@ -141,8 +141,8 @@ const HomePageBlock = () => {
                     Artisanal exploration to launch an outdoor decor collection.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full">
-                  <BsArrowRightCircle size={30} color="gray" />
+                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                  <BsArrowRightCircle size={30} />
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ const HomePageBlock = () => {
 
       <div className="flex flex-col justify-center items-center">
         <p className="text-2xl">Collaborated companies</p>
-        <div className=" mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
+        <div className=" mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5 place-items-center">
           <div>
             <img src={lego} alt="" />
           </div>

@@ -3,8 +3,10 @@ import logo from "../../assets/Maria_logo.png";
 import { GrSend } from "react-icons/gr";
 import { HiOutlineMenu } from "react-icons/hi";
 import Hamburger from "./Hamburger";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const toggleHamburger = () => {
     setHamburgerOpen((prev) => !prev);
@@ -16,15 +18,29 @@ const Navbar = () => {
           <img src={logo} alt="logo" className=" " />
         </div>
         <div className="flex justify-between gap-8 font-sans text-gray-400 max-md:hidden">
-          <div>Servives</div>
-          <div>About</div>
-          <div>Gallery</div>
-          <div>CV</div>
-          <div className=" text-blue-500">
+          <div
+            onClick={() => navigate("/services")}
+            className=" cursor-pointer hover:text-blue-400 font-semibold"
+          >
+            Servives
+          </div>
+          <div className=" cursor-pointer hover:text-blue-400 font-semibold">
+            About
+          </div>
+          <div
+            onClick={() => navigate("/gallery")}
+            className=" cursor-pointer hover:text-blue-400 font-semibold"
+          >
+            Gallery
+          </div>
+          <div className=" cursor-pointer hover:text-blue-400 font-semibold">
+            CV
+          </div>
+          <div className=" text-blue-400 cursor-pointer hover:text-blue-400 font-semibold">
             <GrSend size={20} />
           </div>
         </div>
-        <div className=" text-blue-500 md:hidden ">
+        <div className=" text-blue-400 md:hidden ">
           <HiOutlineMenu size={24} onClick={toggleHamburger} />
         </div>
       </div>
