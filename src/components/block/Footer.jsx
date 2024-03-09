@@ -1,7 +1,7 @@
 import React from "react";
 import vector from "../../assets/Vector.png";
-import { FaLinkedin } from "react-icons/fa";
-import { FaBehanceSquare } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -40,19 +40,22 @@ const Footer = () => {
               showcasing my passion for bringing ideas to life.
             </p>
           </div>
-          <div className="flex flex-col md:flex-row md:justify-start md:gap-14 mt-16 md:items-center">
+          <div className="flex flex-col gap-3 md:flex-row md:justify-start md:gap-14 mt-16 md:items-center">
             <div>
               <button className=" bg-white text-gray-400 px-3 py-1 font-sans rounded-xl">
                 View CV
               </button>
             </div>
-            <div className="flex items-center gap-3 font-sans text-gray-400">
+            <div className="flex items-center gap-5 font-sans text-gray-400">
               <hr className="max-sm:hidden md:block w-16" />
               <p>Follow Me</p>
             </div>
-            <div className="flex ">
-              <FaLinkedin size={30} className=" cursor-pointer"/>
-              <FaBehanceSquare size={30} className=" text-blue-500 cursor-pointer" />
+            <div className="flex gap-5 ">
+              <FaLinkedinIn
+                size={30}
+                className=" text-gray-400 cursor-pointer"
+              />
+              <FaBehance size={32} className=" text-gray-400 cursor-pointer" />
             </div>
           </div>
         </div>

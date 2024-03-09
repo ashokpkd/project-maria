@@ -13,7 +13,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="w-[100%] h-16 md:h-20 md:px-20 flex justify-between items-center px-5 md:border">
+      <div className="w-[100%] h-16 md:h-20 md:px-20 flex justify-between items-center px-5 md:border sticky top-0 bg-white">
         <div>
           <img src={logo} alt="logo" className=" " />
         </div>
@@ -33,7 +33,10 @@ const Navbar = () => {
           >
             Gallery
           </div>
-          <div className=" cursor-pointer hover:text-blue-400 font-semibold">
+          <div
+            onClick={() => navigate("/cv")}
+            className=" cursor-pointer hover:text-blue-400 font-semibold"
+          >
             CV
           </div>
           <div className=" text-blue-400 cursor-pointer hover:text-blue-400 font-semibold">
