@@ -17,8 +17,8 @@ const ProductsBlock = () => {
             Designing to connect with consumers by empathising with their pain-
             points and behavioural patterns.
           </p>
-          <p className=" font-sans text-blue-500">My capabilities</p>
-          <p className=" text-lg font-medium text-gray-500">
+          <p className=" font-sans text-[#5B61F3]">My capabilities</p>
+          <p className=" text-lg font-medium text-[#7F818E]">
             Product design
             <br /> UI Design
             <br /> Packaging design
@@ -38,8 +38,8 @@ const ProductsBlock = () => {
             Making systems through resonant storytelling and design for
             differentiation and optimal positioning.
           </p>
-          <p className=" font-sans text-blue-500">My capabilities</p>
-          <p className=" text-lg font-medium text-gray-500">
+          <p className=" font-sans text-[#5B61F3]">My capabilities</p>
+          <p className=" text-lg font-medium text-[#7F818E]">
             Visual identity
             <br />
             Verbal identity
@@ -59,8 +59,8 @@ const ProductsBlock = () => {
             Help capitalize on shifting market trends and optimise resilient
             strategies through an iterative design thinking approach.
           </p>
-          <p className=" font-sans text-blue-500">My capabilities</p>
-          <p className=" text-lg font-medium text-gray-500">
+          <p className=" font-sans text-[#5B61F3]">My capabilities</p>
+          <p className=" text-lg font-medium text-[#7F818E]">
             Product strategy
             <br />
             Consumer research

@@ -17,11 +17,10 @@ import img15 from "../../../../assets/gallery/15.png";
 import img16 from "../../../../assets/gallery/16.png";
 import { IoMdArrowUp } from "react-icons/io";
 
-
 const GalleryBlock = () => {
   return (
-    <div className="flex flex-col px-8 gap-8 py-8 md:px-28">
-      <div className="flex flex-col gap-8 md:flex-row justify-center items-center ">
+    <div className="flex flex-col px-8 gap-4 py-8 md:px-80">
+      <div className="flex flex-col gap-4 md:flex-row justify-center items-center ">
         <div>
           <img src={img1} alt="" />
         </div>
@@ -29,8 +28,8 @@ const GalleryBlock = () => {
           <img src={img2} alt="" />
         </div>
       </div>
-      <div className=" flex flex-col md:flex-row gap-8 justify-center items-center">
-        <div className=" flex flex-col gap-8 justify-center items-center">
+      <div className=" flex flex-col md:flex-row gap-4 justify-center items-center">
+        <div className=" flex flex-col gap-4 justify-center items-center">
           <div>
             <img src={img3} alt="" />
           </div>
@@ -41,7 +40,7 @@ const GalleryBlock = () => {
             <img src={img5} alt="" />
           </div>
         </div>
-        <div className="flex flex-col gap-8 justify-center items-center">
+        <div className="flex flex-col gap-4 justify-center items-center">
           <div>
             <img src={img6} alt="" />
           </div>
@@ -50,7 +49,7 @@ const GalleryBlock = () => {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col md:flex-row gap-8 justify-center items-center">
+      <div className=" flex flex-col md:flex-row gap-4 justify-center items-center">
         <div>
           <img src={img8} alt="" />
         </div>
@@ -58,7 +57,7 @@ const GalleryBlock = () => {
           <img src={img9} alt="" />
         </div>
       </div>
-      <div className=" flex flex-col md:flex-row gap-8 justify-center items-center">
+      <div className=" flex flex-col md:flex-row gap-4 justify-center items-center">
         <div>
           <img src={img10} alt="" />
         </div>
@@ -66,8 +65,8 @@ const GalleryBlock = () => {
           <img src={img11} alt="" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
-        <div className=" flex flex-col gap-8 justify-center items-center">
+      <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+        <div className=" flex flex-col gap-4 justify-center items-center">
           <div>
             <img src={img12} alt="" />
           </div>
@@ -75,7 +74,7 @@ const GalleryBlock = () => {
             <img src={img13} alt="" />
           </div>
         </div>
-        <div className="flex flex-col gap-8 items-center justify-center ">
+        <div className="flex flex-col gap-4 items-center justify-center ">
           <div>
             <img src={img14} alt="" />
           </div>
@@ -86,8 +85,8 @@ const GalleryBlock = () => {
       </div>
       <div className="flex justify-center items-center">
         <img src={img16} alt="" />
-          </div>
-          <div className="flex justify-center items-center underline cursor-pointer">
+      </div>
+      <div className="flex justify-center items-center underline cursor-pointer">
         <p>Back to the top</p>
         <IoMdArrowUp size={20} />
       </div>

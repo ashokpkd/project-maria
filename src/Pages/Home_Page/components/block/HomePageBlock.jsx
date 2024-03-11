@@ -18,18 +18,18 @@ import yellow from "../../../../assets/yellow.png";
 const HomePageBlock = () => {
   return (
     <div
-      className="text-gray-700 font-serif px-10 md:px-40 py-10 flex flex-col gap-10"
+      className=" font-serif px-10 md:px-40 py-20  flex flex-col gap-10 text-[#2A2D43]"
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%",
       }}
     >
-      <div>
-        <div className="text-lg lg:text-xl xl:text-2xl">
+      <div className="md:py-20">
+        <div className="text-lg lg:text-2xl xl:text-3xl">
           <p>Hello! I’m Maria.</p>
         </div>
-        <div className=" text-4xl font-bold lg:text-5xl xl:text-6xl">
+        <div className=" text-4xl font-bold lg:text-6xl xl:text-7xl ">
           <p>
             A Business designer <br /> focusing on products,
             <br /> brands and experiences.
@@ -37,13 +37,15 @@ const HomePageBlock = () => {
         </div>
       </div>
       <div>
-        <p className=" text-lg">Projects and case studies</p>
-        <div className=" mt-5 grid grid-cols-1 gap-5 md:gap-4 lg:gap-4 md:grid-cols-2">
+        <p className=" text-lg lg:text-2xl xl:text-3xl">
+          Projects and case studies
+        </p>
+        <div className=" mt-5 grid grid-cols-1 gap-5 md:gap-4 lg:gap-4 md:grid-cols-2 ">
           <div>
-            <div className=" bg-white rounded-lg">
+            <div className=" bg-white rounded-lg ">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-10  md:h-64 lg:h-72 xl:h-96"
                   src={boi}
                   alt=""
                   style={{
@@ -53,24 +55,26 @@ const HomePageBlock = () => {
                   }}
                 />
               </a>
-              <div className="p-5 flex justify-between items-center bg-slate-200">
+              <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
-                  <p>Board of Innovation</p>
-                  <p className="text-xs text-gray-400 font-light">
+                  <p className="text-lg lg:text-2xl xl:text-3xl">
+                    Board of Innovation
+                  </p>
+                  <p className="text-sm lg:text-lg text-[#7F818E] font-sans font-light">
                     Lounching a new brand to embody BOI's next step.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <div className=" bg-white rounded-lg">
+            <div className=" bg-white rounded-lg ">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-28 py-5 md:h-64 lg:h-72 xl:h-96"
                   src={lifegate}
                   alt=""
                   style={{
@@ -80,14 +84,16 @@ const HomePageBlock = () => {
                   }}
                 />
               </a>
-              <div className="p-5 flex justify-between items-center bg-slate-200">
+              <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
-                  <p>LifeGate, Italia</p>
-                  <p className="text-xs text-gray-400 font-light">
+                  <p className="text-lg lg:text-2xl xl:text-3xl">
+                    LifeGate, Italia
+                  </p>
+                  <p className="text-sm lg:text-lg text-[#7F818E] font-sans font-light">
                     Reshaping LifeGate's image among digital natives.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
               </div>
@@ -97,7 +103,7 @@ const HomePageBlock = () => {
             <div className=" bg-white rounded-lg">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-72 xl:h-96"
                   src={dd}
                   alt=""
                   style={{
@@ -107,14 +113,16 @@ const HomePageBlock = () => {
                   }}
                 />
               </a>
-              <div className="p-5 flex justify-between items-center bg-slate-200">
+              <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
-                  <p>Design Digest</p>
-                  <p className="text-xs text-gray-400 font-light">
+                  <p className="text-lg lg:text-2xl xl:text-3xl">
+                    Design Digest
+                  </p>
+                  <p className="text-sm lg:text-lg text-[#7F818E] font-sans font-light">
                     Kickstarting Design Digest with their brand identity.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
               </div>
@@ -124,7 +132,7 @@ const HomePageBlock = () => {
             <div className=" bg-white rounded-lg">
               <a href="#">
                 <img
-                  className="rounded-t-lg w-[100%] md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-72 xl:h-96"
                   src={rtg}
                   alt=""
                   style={{
@@ -134,14 +142,16 @@ const HomePageBlock = () => {
                   }}
                 />
               </a>
-              <div className="p-5 flex justify-between items-center bg-slate-200">
+              <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
-                  <p>The Purple Turtles</p>
-                  <p className="text-xs text-gray-400 font-light">
-                    Artisanal exploration to launch an outdoor decor collection.
+                  <p className="text-lg lg:text-2xl xl:text-3xl">
+                    The Purple Turtles
+                  </p>
+                  <p className="text-sm lg:text-lg text-[#7F818E] font-sans font-light">
+                    Artisanal exploration to an outdoor decor collection.
                   </p>
                 </div>
-                <div className=" bg-white rounded-full text-gray-500 hover:text-blue-500 cursor-pointer">
+                <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
               </div>
