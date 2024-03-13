@@ -1,4 +1,5 @@
 import React from "react";
+import{ useNavigate, Link } from 'react-router-dom'
 import background from "../../../../assets/BG.png";
 import boi from "../../../../assets/BOI.png";
 import lifegate from "../../../../assets/lifegate.png";
@@ -16,6 +17,7 @@ import tpt from "../../../../assets/TPT.png";
 import yellow from "../../../../assets/yellow.png";
 
 const HomePageBlock = () => {
+  const navigate = useNavigate()
   return (
     <div
       className=" font-serif px-10 md:px-40 py-20  flex flex-col gap-10 text-[#2A2D43]"
@@ -43,9 +45,9 @@ const HomePageBlock = () => {
         <div className=" mt-5 grid grid-cols-1 gap-5 md:gap-4 lg:gap-4 md:grid-cols-2 ">
           <div>
             <div className=" bg-white rounded-lg ">
-              <a href="#">
+              <Link to={navigate('/boi')}>
                 <img
-                  className="rounded-t-lg w-[100%] px-10  md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-10  md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={boi}
                   alt=""
                   style={{
@@ -54,7 +56,7 @@ const HomePageBlock = () => {
                     backgroundSize: "100%",
                   }}
                 />
-              </a>
+              
               <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
                   <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -67,14 +69,15 @@ const HomePageBlock = () => {
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
-              </div>
+                </div>
+                </Link>
             </div>
           </div>
           <div>
             <div className=" bg-white rounded-lg ">
-              <a href="#">
+              <Link to={navigate('/boi')}>
                 <img
-                  className="rounded-t-lg w-[100%] px-28 py-5 md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-28 py-5 md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={lifegate}
                   alt=""
                   style={{
@@ -83,7 +86,6 @@ const HomePageBlock = () => {
                     backgroundSize: "100%",
                   }}
                 />
-              </a>
               <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
                   <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -96,14 +98,15 @@ const HomePageBlock = () => {
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
-              </div>
+                </div>
+                </Link>
             </div>
           </div>
           <div>
             <div className=" bg-white rounded-lg">
-              <a href="#">
+              <Link to={navigate('/boi')}>
                 <img
-                  className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={dd}
                   alt=""
                   style={{
@@ -112,7 +115,6 @@ const HomePageBlock = () => {
                     backgroundSize: "100%",
                   }}
                 />
-              </a>
               <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
                   <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -125,14 +127,15 @@ const HomePageBlock = () => {
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
           <div>
-            <div className=" bg-white rounded-lg">
-              <a href="#">
+            <div className=" bg-white rounded-lg h">
+              <Link to={navigate('/boi')}>
                 <img
-                  className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-72 xl:h-96"
+                  className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={rtg}
                   alt=""
                   style={{
@@ -141,7 +144,6 @@ const HomePageBlock = () => {
                     backgroundSize: "100%",
                   }}
                 />
-              </a>
               <div className="p-5 flex justify-between items-center bg-[#f0f0fe]">
                 <div>
                   <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -154,7 +156,8 @@ const HomePageBlock = () => {
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
                   <BsArrowRightCircle size={30} />
                 </div>
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
