@@ -18,6 +18,12 @@ import img16 from "../../../../assets/gallery/16.png";
 import { IoMdArrowUp } from "react-icons/io";
 
 const GalleryBlock = () => {
+  const backToTop = () => {
+    window.scrollTo({
+      top: 0,
+    behavior:'smooth'
+    });
+  };
   return (
     <div className="flex flex-col px-8 gap-4 py-8 md:px-80">
       <div className="flex flex-col gap-4 md:flex-row justify-center items-center ">
@@ -86,7 +92,7 @@ const GalleryBlock = () => {
       <div className="flex justify-center items-center">
         <img src={img16} alt="" />
       </div>
-      <div className="flex justify-center items-center underline cursor-pointer">
+      <div className="flex justify-center items-center underline cursor-pointer" onClick={backToTop}>
         <p>Back to the top</p>
         <IoMdArrowUp size={20} />
       </div>

@@ -5,6 +5,7 @@ import Services from './Pages/Services_Page';
 import Gallery from './Pages/Gallery_Page';
 import Cv from './Pages/CV_Page';
 import Boi_page from './Pages/Boi_Page';
+import LifegatePage from './Pages/LifeGate_Page';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/cv' element={<Cv />} />
-          <Route path='/boi' element={<Boi_page/>} />
+          <Route path='/boi' element={<Boi_page />} />
+          <Route path='/lifegate' element={<LifegatePage/>} />
         </Routes>
       </Router>
     </>

@@ -75,7 +75,7 @@ const HomePageBlock = () => {
           </div>
           <div>
             <div className=" bg-white rounded-lg ">
-              <Link to={navigate('/boi')}>
+              <Link to={navigate('/lifegate')}>
                 <img
                   className="rounded-t-lg w-[100%] px-28 py-5 md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={lifegate}
@@ -104,7 +104,7 @@ const HomePageBlock = () => {
           </div>
           <div>
             <div className=" bg-white rounded-lg">
-              <Link to={navigate('/boi')}>
+              <Link to={navigate('')}>
                 <img
                   className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={dd}
@@ -133,7 +133,7 @@ const HomePageBlock = () => {
           </div>
           <div>
             <div className=" bg-white rounded-lg h">
-              <Link to={navigate('/boi')}>
+              <Link to={navigate('')}>
                 <img
                   className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
                   src={rtg}

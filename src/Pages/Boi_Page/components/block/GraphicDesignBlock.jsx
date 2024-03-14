@@ -5,8 +5,13 @@ import boi8 from "../../../../assets/boi/boi8.png";
 import boi9 from "../../../../assets/boi/boi9.png";
 import { IoMdArrowUp } from "react-icons/io";
 
-
 const GraphicDesignBlock = () => {
+  const backToTop = () => {
+    window.scrollTo({
+      top: 0,
+    behavior:'smooth'
+    });
+  };
   return (
     <div className="flex flex-col px-10 md:px-40 py-10 gap-10">
       <p className=" font-medium text-xl lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
@@ -55,8 +60,8 @@ const GraphicDesignBlock = () => {
       </div>
       <div className="py-10">
         <img src={boi9} alt="" />
-          </div>
-          <div className="flex justify-center items-center underline cursor-pointer">
+      </div>
+      <div className="flex justify-center items-center underline cursor-pointer" onClick={backToTop}>
         <p>Back to the top</p>
         <IoMdArrowUp size={20} />
       </div>

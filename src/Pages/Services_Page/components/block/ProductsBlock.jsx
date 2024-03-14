@@ -5,6 +5,12 @@ import dd from "../../../../assets/services/ServicesC3.png";
 import { IoMdArrowUp } from "react-icons/io";
 
 const ProductsBlock = () => {
+  const backToTop = () => {
+    window.scrollTo({
+      top: 0,
+    behavior:'smooth'
+    });
+  };
   return (
     <div className="flex flex-col md:gap-5 ">
       <div className="flex flex-col md:flex-row py-5 ">
@@ -72,7 +78,7 @@ const ProductsBlock = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center underline cursor-pointer">
+      <div className="flex justify-center items-center underline cursor-pointer" onClick={backToTop}>
         <p>Back to the top</p>
         <IoMdArrowUp size={20} />
       </div>
