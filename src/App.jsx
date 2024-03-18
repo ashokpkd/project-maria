@@ -6,6 +6,8 @@ import Gallery from './Pages/Gallery_Page';
 import Cv from './Pages/CV_Page';
 import Boi_page from './Pages/Boi_Page';
 import LifegatePage from './Pages/LifeGate_Page';
+import DDPage from './Pages/DD_Page';
+import TptPage from './Pages/TPT_Page';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/cv' element={<Cv />} />
           <Route path='/boi' element={<Boi_page />} />
-          <Route path='/lifegate' element={<LifegatePage/>} />
+          <Route path='/lifegate' element={<LifegatePage />} />
+          <Route path='/dd' element={<DDPage />} />
+          <Route path='/tpt' element={<TptPage/>} />
         </Routes>
       </Router>
     </>
