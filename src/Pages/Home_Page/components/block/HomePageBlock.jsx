@@ -6,15 +6,7 @@ import lifegate from "../../../../assets/lifegate.png";
 import dd from "../../../../assets/dd.png";
 import rtg from "../../../../assets/rtg.png";
 import { BsArrowRightCircle } from "react-icons/bs";
-import lego from "../../../../assets/Lego.png";
-import boiLogo from "../../../../assets/boiLogo.png";
-import ddlogo from "../../../../assets/ddlogo.png";
-import fashionTech from "../../../../assets/fashionTech.png";
-import lifegateLogo from "../../../../assets/lifegateLogo.png";
-import pickCheff from "../../../../assets/pickChef.png";
-import rinascente from "../../../../assets/Rinascente.png";
-import tpt from "../../../../assets/TPT.png";
-import yellow from "../../../../assets/yellow.png";
+import CollaboratedCompanies from "./CollaboratedCompanies";
 
 const HomePageBlock = () => {
   const navigate = useNavigate();
@@ -154,39 +146,7 @@ const HomePageBlock = () => {
           </div>
         </div>
       </div>
-
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-2xl">Collaborated companies</p>
-        <div className=" mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5 place-items-center">
-          <div>
-            <img src={lego} alt="" />
-          </div>
-          <div>
-            <img src={boiLogo} alt="" />
-          </div>
-          <div>
-            <img src={rinascente} alt="" />
-          </div>
-          <div>
-            <img src={fashionTech} alt="" />
-          </div>
-          <div>
-            <img src={tpt} alt="" />
-          </div>
-          <div>
-            <img src={pickCheff} alt="" />
-          </div>
-          <div>
-            <img src={lifegateLogo} alt="" />
-          </div>
-          <div>
-            <img src={yellow} alt="" />
-          </div>
-          <div>
-            <img src={ddlogo} alt="" />
-          </div>
-        </div>
-      </div>
+      <CollaboratedCompanies/>
     </div>
   );
 };

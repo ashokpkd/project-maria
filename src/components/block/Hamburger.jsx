@@ -11,7 +11,7 @@ const Hamburger = () => {
           <p onClick={() => navigate("/services")}>Services</p>
         </li>
         <li className=" cursor-pointer border-b hover:text-[#5B61F3] py-2 w-full">
-          <p onClick={() => navigate()}>About</p>
+          <p onClick={() => navigate('/about')}>About</p>
         </li>
         <li className=" cursor-pointer border-b hover:text-[#5B61F3] py-2 w-full">
           <p onClick={() => navigate("/gallery")}>Gallery</p>

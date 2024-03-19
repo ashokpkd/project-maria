@@ -17,29 +17,38 @@ const Navbar = () => {
         <div>
           <img src={logo} alt="logo" className=" " />
         </div>
-        <div className="flex justify-between gap-8 font-sans max-md:hidden" style={{color:'#2A2D43'}}>
+        <div
+          className="flex justify-between gap-8 font-sans max-md:hidden"
+          style={{ color: "#2A2D43" }}
+        >
           <div
             onClick={() => navigate("/services")}
-            className=" cursor-pointer  font-normal hover:text-[#5B61F3]" 
+            className=" cursor-pointer  font-normal hover:text-[#5B61F3]"
           >
             Servives
           </div>
-          <div className=" cursor-pointer  font-normal hover:text-[#5B61F3]" >
+          <div
+            onClick={() => navigate("/about")}
+            className=" cursor-pointer  font-normal hover:text-[#5B61F3]"
+          >
             About
           </div>
           <div
             onClick={() => navigate("/gallery")}
-            className=" cursor-pointer  font-normal hover:text-[#5B61F3]" 
+            className=" cursor-pointer  font-normal hover:text-[#5B61F3]"
           >
             Gallery
           </div>
           <div
             onClick={() => navigate("/cv")}
-            className=" cursor-pointer  font-normal hover:text-[#5B61F3]"  
+            className=" cursor-pointer  font-normal hover:text-[#5B61F3]"
           >
             CV
           </div>
-          <div className="  cursor-pointer  font-normal"  style={{color:'#5B61F3'}}>
+          <div
+            className="  cursor-pointer  font-normal"
+            style={{ color: "#5B61F3" }}
+          >
             <GrSend size={20} />
           </div>
         </div>

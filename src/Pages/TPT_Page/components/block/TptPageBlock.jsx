@@ -1,5 +1,10 @@
 import React from "react";
-import background from '../../../../assets/BG.png'
+import background from "../../../../assets/BG.png";
+import TptIntroBlock from "./TptIntroBlock";
+import ProjectBlock from "./ProjectBlock";
+import StoryBlock from "./StoryBlock";
+import BasketBlock from "./BasketBlock";
+
 const TptPageBlock = () => {
   return (
     <div
@@ -10,7 +15,10 @@ const TptPageBlock = () => {
         backgroundSize: "100%",
       }}
     >
-      TptPageBlock
+      <TptIntroBlock />
+      <ProjectBlock />
+      <StoryBlock />
+      <BasketBlock />
     </div>
   );
 };
