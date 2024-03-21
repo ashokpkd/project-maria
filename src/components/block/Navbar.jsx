@@ -25,7 +25,7 @@ const Navbar = () => {
             onClick={() => navigate("/services")}
             className=" cursor-pointer  font-medium hover:text-[#5B61F3]"
           >
-            Servives
+            Services
           </div>
           <div
             onClick={() => navigate("/about")}
