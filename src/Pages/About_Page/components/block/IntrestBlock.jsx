@@ -11,8 +11,8 @@ const IntrestBlock = () => {
       </div>
 
       <div className=" flex flex-1 flex-col gap-10 py-10  md:px-10 font-sans">
-        <div>
-          <div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-3">
             <p className=" font-medium">Other interests</p>
             <p className=" text-sm ">
               Always been the artsy one in a crowd, I chose design not as a mere
