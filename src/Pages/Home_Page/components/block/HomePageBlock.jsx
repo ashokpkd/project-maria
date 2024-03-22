@@ -38,7 +38,7 @@ const HomePageBlock = () => {
           <div onClick={() => navigate("/boi")}>
             <div className=" bg-white rounded-lg cursor-pointer">
               <img
-                className="rounded-t-lg w-[100%] px-10  md:h-64 lg:h-[400px] xl:h-[600px]"
+                className="rounded-t-lg w-[100%] min-h-40 px-10  md:h-64 lg:h-[400px] xl:h-[600px]"
                 src={boi}
                 alt=""
                 style={{
@@ -66,7 +66,7 @@ const HomePageBlock = () => {
           <div onClick={() => navigate("/lifegate")}>
             <div className=" bg-white rounded-lg cursor-pointer">
               <img
-                className="rounded-t-lg w-[100%] px-28 py-5 md:h-64 lg:h-[400px] xl:h-[600px]"
+                className="rounded-t-lg w-[100%] min-h-40 px-10 py-5 md:h-64 lg:h-[400px] xl:h-[600px]"
                 src={lifegate}
                 alt=""
                 style={{
@@ -93,7 +93,7 @@ const HomePageBlock = () => {
           <div onClick={() => navigate("/dd")}>
             <div className=" bg-white rounded-lg cursor-pointer">
               <img
-                className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
+                className="rounded-t-lg w-[100%] min-h-40 px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
                 src={dd}
                 alt=""
                 style={{
@@ -117,10 +117,10 @@ const HomePageBlock = () => {
               </div>
             </div>
           </div>
-          <div onClick={()=>navigate('/tpt')}>
+          <div onClick={() => navigate("/tpt")}>
             <div className=" bg-white rounded-lg cursor-pointer">
               <img
-                className="rounded-t-lg w-[100%] px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
+                className="rounded-t-lg w-[100%] min-h-40 px-10 md:h-64 lg:h-[400px] xl:h-[600px]"
                 src={rtg}
                 alt=""
                 style={{
@@ -146,7 +146,7 @@ const HomePageBlock = () => {
           </div>
         </div>
       </div>
-      <CollaboratedCompanies/>
+      <CollaboratedCompanies />
     </div>
   );
 };
