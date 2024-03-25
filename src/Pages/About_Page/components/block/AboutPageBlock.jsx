@@ -9,7 +9,7 @@ import LastBlock from "./LastBlock";
 const AboutPageBlock = () => {
   return (
     <div
-      className=" font-serif px-10 md:px-40 py-10 md:py-20  flex flex-col gap-10 text-[#2A2D43]"
+      className=" font-serif px-10  lg:px-40 py-10 md:py-20  flex flex-col gap-10 text-[#2A2D43]"
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
@@ -21,7 +21,7 @@ const AboutPageBlock = () => {
       <QualificationBlock />
       <SkillsBlock />
       <IntrestBlock />
-      <LastBlock/>
+      <LastBlock />
     </div>
   );
 };

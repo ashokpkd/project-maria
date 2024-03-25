@@ -10,7 +10,7 @@ const InteractiveBlock = () => {
     });
   };
   return (
-    <div className="flex gap-10 flex-col px-10 md:px-40 md:py-10 pb-10">
+    <div className="flex justify-center items-center gap-10 md:gap-16 flex-col px-10 md:px-40 md:py-10 pb-10">
       <div className="flex flex-col gap-3">
         <p className=" font-medium text-xl md:px-10 lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
           Delivered a seed for branding direction
@@ -28,7 +28,7 @@ const InteractiveBlock = () => {
         <img src={dd11} alt="" />
       </div>
       <div
-        className="flex justify-center items-center underline cursor-pointer"
+        className="flex font-sans justify-center items-center border-b border-black w-[8rem] md:my-16 cursor-pointer"
         onClick={backToTop}
       >
         <p>Back to the top</p>

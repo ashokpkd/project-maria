@@ -3,10 +3,10 @@ import boi3 from "../../../../assets/boi/boi3.png";
 const OutcomeBlock = () => {
   return (
     <div className="flex flex-col md:flex-row px-10 md:py-20 md:px-40 flex-1">
-      <div className="flex flex-1 justify-center items-center">
+      <div className="flex flex-1 justify-center items-center md:px-10 lg:px-20">
         <img src={boi3} alt="" />
       </div>
-      <div className=" flex flex-1 flex-col gap-10 py-10 md:px-10 font-sans">
+      <div className=" flex flex-1 flex-col gap-10 py-10 md:px-10  font-sans">
         <p className=" font-medium font-serif text-xl  lg:text-2xl xl:text-3xl text-[#2A2D43]">
           Outcomes:
         </p>

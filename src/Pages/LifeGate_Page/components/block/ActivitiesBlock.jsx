@@ -8,9 +8,9 @@ import { LuPalette } from "react-icons/lu";
 import { AiOutlinePicture } from "react-icons/ai";
 function ActivitiesBlock() {
   return (
-    <div className=" flex flex-col flex-1 md:flex-row gap-10 px-10 py-10 md:px-40">
+    <div className=" flex flex-col flex-1 md:flex-row gap-10 md:gap-28 px-10 py-10 md:px-40">
       <div className="flex flex-col flex-1  gap-5">
-        <div className=" flex flex-col gap-2">
+        <div className=" flex flex-col gap-2 md:gap-3">
           <p className=" font-medium text-lg  lg:text-xl xl:text-2xl text-[#2A2D43]">
             Main Activities in LG creators through a quick prototype?
           </p>
@@ -21,7 +21,7 @@ function ActivitiesBlock() {
             which are:
           </p>
         </div>
-        <div className=" flex flex-col gap-2">
+        <div className=" flex flex-col gap-2 md:py-5">
           <div className=" flex gap-3 flex-col md:flex-row">
             <div className="flex px-5 py-5   gap-3 border border-gray-300 rounded-lg">
               <div>

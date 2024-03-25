@@ -11,7 +11,7 @@ import yellow from "../../../../assets/yellow.png";
 
 const CollaboratedCompanies = () => {
   return (
-    <div className="flex flex-col gap-10 justify-center items-center">
+    <div className="flex flex-col gap-10 md:py-36 justify-center items-center">
       <p className="text-2xl text-center">Collaborated companies</p>
       <div className="flex flex-col justify-center items-center gap-10">
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">

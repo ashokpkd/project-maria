@@ -7,7 +7,7 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 
 const InnovativeBlock = () => {
   return (
-    <div className="flex flex-col px-10 md:px-40">
+    <div className="flex flex-col md:mt-12 px-10 md:px-40">
       <div className=" flex flex-col gap-3">
         <p className=" font-medium text-xl lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
           Innovative Toolbox: BOI pioneered the world's largest open-source
@@ -22,7 +22,7 @@ const InnovativeBlock = () => {
           toolkit needs:
         </p>
       </div>
-      <div className=" font-sans py-10 flex flex-col gap-5 md:flex-row md:gap-10">
+      <div className=" font-sans py-10 flex md:mt-5 flex-col gap-5 md:flex-row md:gap-10">
         <div className="flex flex-col gap-3 ">
           <img src={svg1} className=" w-14" alt="" />
           <p className=" font-normal">Streamlined experience</p>
@@ -52,10 +52,13 @@ const InnovativeBlock = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-8 py-10 px-10  text-[#7F818E]">
+      <div className="flex flex-col justify-center items-center gap-8 py-10 px-10 md:px-40 md:pt-28  text-[#7F818E]">
         <img src={boi2} alt="" />
-        <p className="flex text-[5px] md:text-sm items-center gap-1">
-          <MdKeyboardArrowUp size={20} />
+        <p className="flex text-[5px] md:text-sm items-center gap-2">
+          <MdKeyboardArrowUp
+            size={20}
+            className=" border bg-white rounded-md"
+          />
           Structuring a Design Language System (DLS) in Miro
         </p>
       </div>

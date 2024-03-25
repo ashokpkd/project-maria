@@ -2,9 +2,12 @@ import React from "react";
 import BoiButtons from "../../../Boi_Page/components/ui/BoiButtons";
 import lifegate from "../../../../assets/lifegate.png";
 import team from "../../../../assets/lifegate/Team.png";
+import lgtext from "../../../../assets/lifegate/lgtext.png";
+import lgtextmob from "../../../../assets/lifegate/lgtextmob.png";
+
 const LifeGateIntroBlock = () => {
   return (
-    <div className=" px-10 md:px-40 py-20 flex flex-col md:flex-row w-full  flex-1">
+    <div className=" px-10 gap-10 md:px-40 py-20  flex flex-col md:flex-row w-full  flex-1">
       <div className=" flex-1 flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -48,7 +51,9 @@ const LifeGateIntroBlock = () => {
           </div>
         </div>
         <div className=" flex flex-col md:text-xs gap-3 text-[#7F818E]">
-          <div className="flex flex-col  md:flex-row gap-3">
+          <img src={lgtext} alt="" className=" max-sm:hidden" />
+          <img src={lgtextmob} alt="" className=" sm:hidden" />
+          {/* <div className="flex flex-col  md:flex-row gap-3">
             <div className="flex flex-col  sm:flex-row gap-3">
               <BoiButtons name={"Business design"} />
               <BoiButtons name={"Consumer research"} />
@@ -61,10 +66,10 @@ const LifeGateIntroBlock = () => {
           <div className="flex flex-col md:flex-row gap-3">
             <BoiButtons name={"Product development"} />
             <BoiButtons name={"Rapid prototyping"} />
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className=" flex-1 flex justify-center px-10 pt-20 items-start">
+      <div className=" flex-1 flex justify-center px-10 md:mt-24  items-start">
         <img src={lifegate} alt="" className=" min-w-[280px]" />
       </div>
     </div>

@@ -1,10 +1,15 @@
 import React from "react";
 import BoiButtons from "../../../Boi_Page/components/ui/BoiButtons";
 import tpt from "../../../../assets/rtg.png";
+import btn1 from "../../../../assets/tpt/btn1.png";
+import btn2 from "../../../../assets/tpt/btn2.png";
+import btn3 from "../../../../assets/tpt/btn3.png";
+import btn4 from "../../../../assets/tpt/btn4.png";
+import tpttextmob from "../../../../assets/tpt/tpttextmob.png";
 
 const TptIntroBlock = () => {
   return (
-    <div className=" px-10 md:px-40 py-20 flex flex-col md:flex-row w-full  flex-1">
+    <div className=" px-10 md:px-40 py-20 flex flex-col md:flex-row w-full md:gap-20  flex-1">
       <div className=" flex-1 flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -15,7 +20,7 @@ const TptIntroBlock = () => {
             collection.
           </p>
         </div>
-        <div className="text-sm  text-[#7F818E] font-sans flex flex-col gap-2">
+        <div className="text-sm  text-[#2A2D43] font-sans flex flex-col gap-2">
           <p>
             Born in 2009, The Purple Turtles Lighting Ideas Pvt. Ltd emerged
             from humble roots as a boutique lighting studio in Bangalore. Today,
@@ -23,13 +28,12 @@ const TptIntroBlock = () => {
             eclectic home décor.
           </p>
           <p>
-            I was recruited to the Product design team at
-            one of their vertical brands, Beruru. Beruru is a a garden lifestyle
-            brand that encourages urban residents in creating garden reserves
-            amidst the busy city.
+            I was recruited to the Product design team at one of their vertical
+            brands, Beruru. Beruru is a a garden lifestyle brand that encourages
+            urban residents in creating garden reserves amidst the busy city.
           </p>
         </div>
-        <div className=" flex flex-col font-sans text-xs md:text-sm text-[#7F818E]">
+        <div className=" flex flex-col font-sans text-xs md:text-sm text-[#2A2D43]">
           <div className="flex justify-between items-center border-b border-gray-300 py-5 gap-8">
             <p>Timeframe</p>
             <p>4 months</p>
@@ -43,16 +47,19 @@ const TptIntroBlock = () => {
             <p>Rhino 3D, Keyshot, Sketchbook Pro</p>
           </div>
         </div>
-        <div className=" flex flex-col md:text-xs gap-3 text-[#7F818E]">
-          <div className="flex flex-col  md:flex-row gap-3">
-            <div className="flex flex-col  sm:flex-row gap-3">
-              <BoiButtons name={"Product design"} />
+        <div className=" flex flex-col md:text-xs gap-3 text-[#2A2D43]">
+          <div className="flex flex-col gap-3 ">
+            <div className="flex gap-3 max-sm:hidden ">
+              <img src={btn1} alt="" className="w-[25%]" />
+              <img src={btn2} alt="" className="w-[25%]" />
+              <img src={btn3} alt="" className="w-[25%]" />
+              <img src={btn4} alt="" className="w-[25%]" />
+              {/* <BoiButtons name={"Product design"} />
               <BoiButtons name={"Craft developement"} />
-            </div>
-            <div className="flex flex-col sm:flex-row gap-3">
               <BoiButtons name={"Fabrication"} />
-              <BoiButtons name={"Artisan sourcing"} />
+              <BoiButtons name={"Artisan sourcing"} /> */}
             </div>
+            <img src={tpttextmob} alt="" className=" sm:hidden" />
           </div>
         </div>
       </div>

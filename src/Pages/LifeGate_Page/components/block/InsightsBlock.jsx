@@ -4,7 +4,7 @@ import lg7 from "../../../../assets/lifegate/lg7.png";
 
 const InsightsBlock = () => {
   return (
-    <div className="flex flex-col md:flex-row px-10 md:py-20 md:px-40 flex-1">
+    <div className="flex flex-col md:gap-20 md:flex-row px-10 md:py-20 md:px-40 flex-1">
       <div className="flex gap-5 flex-1 flex-col justify-center items-center">
         <img src={lg6} alt="" />
         <img src={lg7} alt="" />
@@ -18,6 +18,7 @@ const InsightsBlock = () => {
           Insights and uncharted territory for LG
         </p>
         <div>
+          
           <p className=" font-medium">
             #01.Rise in the Creator economy = Gen Z’s financial independence
           </p>

@@ -4,7 +4,7 @@ import dd8 from "../../../../assets/dd/dd8.png";
 
 const BespokeBlock = () => {
   return (
-    <div className=" flex flex-col px-10 md:py-10 md:px-40 gap-10">
+    <div className=" flex flex-col px-10 md:py-10 md:px-40 gap-10 md:gap-20">
       <div className="flex flex-col flex-1 md:flex-row gap-10 md:gap-20 ">
         <div className="flex flex-col  gap-3 flex-1">
           <p>Bespoke icons</p>

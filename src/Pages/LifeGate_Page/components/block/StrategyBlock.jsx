@@ -7,7 +7,7 @@ const StrategyBlock = () => {
   return (
     <div className="flex flex-col px-10 md:px-40">
       <div className=" flex flex-col gap-3">
-        <p className=" font-medium text-xl md:px-10 lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
+        <p className=" font-medium text-xl md:px-40 md:py-20 lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
           Strategy: Empathy-Infused strategy to reshape LG and pave a
           competitive edge
         </p>

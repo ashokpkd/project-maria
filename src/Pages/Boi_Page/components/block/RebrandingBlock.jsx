@@ -16,8 +16,8 @@ const RebrandingBlock = () => {
           Additionally, I designed publications that were launched on our
           website and also crafted downloadable reports.
         </p>
-        <div className="px-10 md:px-64">
-          <BoiButtons name={"Visit Website"} />
+        <div className=" flex justify-center items-center ">
+          <BoiButtons name={"Visit Website"} customClassName={"w-[10rem]"} />
         </div>
       </div>
       <div>

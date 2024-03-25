@@ -1,6 +1,8 @@
 import React from "react";
 import Boi from "../../../../assets/BOI.png";
 import BoiButtons from "../ui/BoiButtons";
+import textboi from "../../../../assets/boi/textboi.png";
+import textboimob from "../../../../assets/boi/textboimob.png";
 
 const BoiIntroBlock = () => {
   return (
@@ -45,7 +47,9 @@ const BoiIntroBlock = () => {
           </div>
         </div>
         <div className=" flex flex-col md:text-xs gap-3 text-[#7F818E]">
-          <div className="flex flex-col  md:flex-row gap-3">
+          <img src={textboi} alt="" className=" max-sm:hidden" />
+          <img src={textboimob} alt="" className=" sm:hidden" />
+          {/* <div className="flex flex-col  md:flex-row gap-3">
             <div className="flex flex-col  sm:flex-row gap-3">
               <BoiButtons name={"Brand design"} />{" "}
               <BoiButtons name={"Business design"} />
@@ -58,10 +62,10 @@ const BoiIntroBlock = () => {
           <div className="flex flex-col md:flex-row gap-3">
             <BoiButtons name={"Design Language System"} />{" "}
             <BoiButtons name={"User journey mapping"} />
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className=" flex-1 flex justify-center pt-20 items-start">
+      <div className=" flex-1 flex justify-center pt-10 items-start">
         <img src={Boi} alt="" className=" min-w-[280px]" />
       </div>
     </div>

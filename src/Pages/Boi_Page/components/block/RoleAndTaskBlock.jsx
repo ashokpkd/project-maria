@@ -3,7 +3,7 @@ import { BsArrowDown } from "react-icons/bs";
 
 const RoleAndTaskBlock = () => {
   return (
-    <div className=" bg-[#4E5DAB1A] py-14 flex flex-col px-10 gap-5 md:px-60 xl:px-[550px]">
+    <div className=" bg-[#4E5DAB1A] py-14 flex flex-col px-10 gap-5 md:gap-20 md:px-60 xl:px-[550px]">
       <div className="flex flex-col justify-center items-center gap-3">
         <p className=" font-medium text-xl lg:text-2xl xl:text-3xl text-[#2A2D43]">
           Roles and tasks
@@ -17,7 +17,7 @@ const RoleAndTaskBlock = () => {
       </div>
 
       <div className=" flex flex-col font-sans gap-3">
-        <div className=" flex flex-col gap-3 md:flex-row">
+        <div className=" flex flex-col gap-5 md:flex-row">
           <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg  md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Innovation tool design </p>
             <p className=" text-[#7F818E] text-sm">
@@ -53,7 +53,7 @@ const RoleAndTaskBlock = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col gap-3 md:flex-row">
+        <div className=" flex flex-col gap-5 md:flex-row">
           <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Brand regulation</p>
             <p className=" text-[#7F818E] text-sm">

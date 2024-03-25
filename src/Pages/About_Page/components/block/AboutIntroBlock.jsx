@@ -10,7 +10,7 @@ const AboutIntroBlock = () => {
         <img
           src={abt1}
           alt=""
-          className=" max-sm:min-w-[200px] max-md:max-w-[280px]"
+          className=" max-sm:min-w-[200px] md:min-w-[300px]"
         />
       </div>
       <div className=" flex-1 flex flex-col gap-5">

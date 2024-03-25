@@ -14,11 +14,11 @@ const VisualBlock = () => {
         allow Design Digest to communicate end product they bring through their
         values- “Brilliance”.
       </p>
-      <div className=" flex flex-col flex-1 md:flex-row gap-5">
+      <div className=" flex flex-col flex-1 md:flex-row gap-5 md:gap-20">
         <div className="flex flex-1 py-20">
           <img src={dd3} alt="" />
         </div>
-        <div className="flex flex-col flex-1 justify-center items-center md:justify-end md:pb-28 md:px-10 md:py-10 gap-5 md:gap-10">
+        <div className="flex flex-col flex-1 justify-center items-center md:justify-end md:pb-28 md:px-10 md:py-10 gap-5 md:gap-20">
           <div className=" flex flex-col  gap-2">
             <p>Wordmark</p>
             <p className="font-sans text-sm">

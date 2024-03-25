@@ -8,13 +8,13 @@ const OutcomeBlock = () => {
         Outcome: Launching a digital platform geared towards LG's vision for a
         Sustainable Digital Community “LifeGate Creators”.
       </p>
-      <div className=" flex flex-col flex-1 md:flex-row gap-5">
+      <div className=" flex flex-col flex-1 md:flex-row gap-5 md:gap-20">
         <div className="flex flex-1 py-20">
           <img src={lg8} alt="" />
         </div>
-        <div className="flex flex-col flex-1 justify-center items-center md:px-10 md:py-10 gap-5">
+        <div className="flex flex-col flex-1 justify-center items-center md:px-10 md:py-10 gap-5 md:gap-20">
           <div className=" flex flex-col gap-2">
-            <p>What is LifeGate Creators?</p>
+            <p className="text-[1.25rem]">What is LifeGate Creators?</p>
             <p className="font-sans text-sm">
               The LifeGate proposal envisions a dynamic digital platform for
               their upcoming community, "LifeGate Creators." Tailored to the Gen
@@ -24,7 +24,7 @@ const OutcomeBlock = () => {
             </p>
           </div>
           <div className=" flex flex-col gap-2">
-            <p>What value does it bring?</p>
+            <p className="text-[1.25rem]">What value does it bring?</p>
             <p className="font-sans text-sm ">
               On this platform, members will find a powerful space to express
               and explore their sustainability ideas using diverse creative

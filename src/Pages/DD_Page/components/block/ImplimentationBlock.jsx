@@ -2,7 +2,7 @@ import React from "react";
 import dd10 from "../../../../assets/dd/dd10.png";
 const ImplimentationBlock = () => {
   return (
-    <div className=" flex flex-col flex-1 md:flex-row gap-10 md:gap-20 px-10  md:px-40">
+    <div className=" flex flex-col flex-1 md:flex-row gap-10 md:gap-20 px-10 md:py-10  md:px-40">
       <div className="flex flex-col justify-center gap-5 flex-1">
         <div className="flex flex-col gap-3">
           <p>Other implementations</p>

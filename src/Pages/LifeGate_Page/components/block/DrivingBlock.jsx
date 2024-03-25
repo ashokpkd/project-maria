@@ -3,12 +3,12 @@ import lg5 from "../../../../assets/lifegate/lg5.png";
 
 const DrivingBlock = () => {
   return (
-    <div className="flex flex-col px-10 md:px-40 xl:px-[500px] py-20 gap-5">
-      <p className=" font-medium text-xl lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
+    <div className="flex flex-col px-10 md:px-40 xl:px-[500px] py-20 gap-5 ">
+      <p className=" font-medium md:pb-20 md:px-20 text-xl lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
         Challenge: Driving LifeGate’s market leadership with Gen Z to be the hub
         of sustainable innovation
       </p>
-      <div className="flex flex-col md:flex-row font-sans flex-1 gap-10">
+      <div className="flex flex-col md:flex-row font-sans flex-1 gap-10 md:gap-20">
         <div className=" flex flex-col flex-1 gap-5 text-sm">
           <p className=" font-medium">
             How might we help LifeGate offer Gen Z an influential networking
