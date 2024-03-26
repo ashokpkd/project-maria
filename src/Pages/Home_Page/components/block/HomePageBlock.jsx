@@ -58,7 +58,7 @@ const HomePageBlock = () => {
                   </p>
                 </div>
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
-                  <BsArrowRightCircle size={30} />
+                  <BsArrowRightCircle size={30} className=" max-sm:hidden" />
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const HomePageBlock = () => {
                   </p>
                 </div>
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
-                  <BsArrowRightCircle size={30} />
+                  <BsArrowRightCircle size={30}  className=" max-sm:hidden" />
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ const HomePageBlock = () => {
                   </p>
                 </div>
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
-                  <BsArrowRightCircle size={30} />
+                  <BsArrowRightCircle size={30}  className=" max-sm:hidden" />
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@ const HomePageBlock = () => {
                   </p>
                 </div>
                 <div className=" bg-white rounded-full text-[#7F818E]  hover:text-blue-500 cursor-pointer">
-                  <BsArrowRightCircle size={30} />
+                  <BsArrowRightCircle size={30}  className=" max-sm:hidden" />
                 </div>
               </div>
             </div>

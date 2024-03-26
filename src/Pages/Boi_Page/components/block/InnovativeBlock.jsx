@@ -52,7 +52,7 @@ const InnovativeBlock = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-8 py-10 px-10 md:px-40 md:pt-28  text-[#7F818E]">
+      <div className="flex flex-col justify-center items-center gap-8  md:px-40 md:pt-28  text-[#7F818E]">
         <img src={boi2} alt="" />
         <p className="flex text-[5px] md:text-sm items-center gap-2">
           <MdKeyboardArrowUp

@@ -20,14 +20,14 @@ const BasketBlock = () => {
   };
 
   return (
-    <div className=" flex flex-col px-10 py-10 md:py-10 md:px-40 gap-10 md:gap-20">
+    <div className=" flex justify-center items-center flex-col px-10  md:py-10 md:px-40 gap-10 md:gap-20">
       <div className="flex flex-col flex-1 md:flex-row gap-10 md:gap-20">
         <div className="flex flex-1">
           <img src={tpt4} alt="image" />
         </div>
         <div className="flex flex-col justify-end md:gap-12 gap-5 flex-1">
-          <div className="flex flex-col gap-3">
-            <p className=" ">#01 Veiled basket</p>
+          <div className="flex flex-col gap-5">
+            <p className="text-[1.25rem]">#01 Veiled basket</p>
             <p className=" text-sm font-sans">
               This simple looking basket is not what meets the eye. The storage
               accessory conceals articles kept inside with its hidden base and
@@ -47,8 +47,8 @@ const BasketBlock = () => {
           <img src={tpt6} alt="image" />
         </div>
         <div className="flex flex-col justify-end md:gap-12 gap-5 flex-1">
-          <div className="flex flex-col gap-3">
-            <p className=" ">#02 Illuminating planter</p>
+          <div className="flex flex-col gap-5">
+            <p className="text-[1.25rem]">#02 Illuminating planter</p>
             <p className=" text-sm font-sans">
               Displays plants under a warm underglow. Light emerging from the
               strands of cane at the bottom creates a halo like effect. The
@@ -69,8 +69,8 @@ const BasketBlock = () => {
           <img src={tpt8} alt="image" />
         </div>
         <div className="flex flex-col justify-end md:gap-12 gap-5 flex-1">
-          <div className="flex flex-col gap-3">
-            <p className=" ">#03 Side table</p>
+          <div className="flex flex-col gap-5">
+            <p className="text-[1.25rem]">#03 Side table</p>
             <p className=" text-sm font-sans">
               A modest table that completes a seating area. Small household
               objects, such as plants, small ornaments, or a solitary book can
@@ -91,8 +91,8 @@ const BasketBlock = () => {
           <img src={tpt10} alt="image" />
         </div>
         <div className="flex flex-col justify-end md:gap-12 gap-5 flex-1">
-          <div className="flex flex-col gap-3">
-            <p className=" ">#04 Classic baskets</p>
+          <div className="flex flex-col gap-5">
+            <p className="text-[1.25rem]">04 Classic baskets</p>
             <p className=" text-sm font-sans">
               Just beautiful receptacles. Serves utilitarian, and aesthetic
               purposes.
@@ -111,7 +111,7 @@ const BasketBlock = () => {
           <img src={tpt12} alt="image" />
         </div>
         <div className="flex flex-col justify-end md:gap-12 gap-5 flex-1">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-5">
             <p className=" ">#05 Radiant planter</p>
             <p className=" text-sm font-sans">
               A simple pop of warmth and shine for the green. These planters
@@ -128,7 +128,7 @@ const BasketBlock = () => {
       </div>
 
       <div
-        className="flex justify-center items-center underline cursor-pointer"
+        className="flex font-sans justify-center items-center border-b border-black w-[8rem] mb-10 cursor-pointer"
         onClick={backToTop}
       >
         <p>Back to the top</p>

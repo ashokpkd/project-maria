@@ -5,7 +5,7 @@ const ImplimentationBlock = () => {
     <div className=" flex flex-col flex-1 md:flex-row gap-10 md:gap-20 px-10 md:py-10  md:px-40">
       <div className="flex flex-col justify-center gap-5 flex-1">
         <div className="flex flex-col gap-3">
-          <p>Other implementations</p>
+          <p className="text-[1.25rem]">Other implementations</p>
           <p className=" font-sans text-sm">
             A simply bold, yet bespoke workdmark of the company name stands as
             the centerpiece of their branding. This bespoke workmark is
@@ -21,7 +21,7 @@ const ImplimentationBlock = () => {
           </p>
         </div>
         <div className="flex flex-col gap-3">
-          <p>Next steps</p>
+          <p className="text-[1.25rem]">Next steps</p>
           <p className=" font-sans text-sm">
             This diamond inspired logomark, while not the primary logo, serves a
             crucial role as a versatile element in the brand's identity. It is

@@ -6,7 +6,7 @@ import ddtextmob from "../../../../assets/dd/ddtextmob.png";
 
 const DDintroBlock = () => {
   return (
-    <div className=" px-10 md:px-40 py-20 flex flex-col md:flex-row w-full  flex-1">
+    <div className=" px-10 md:px-40 pt-20 md:py-20 flex flex-col md:flex-row w-full  flex-1">
       <div className=" flex-1 flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -58,8 +58,8 @@ const DDintroBlock = () => {
           </div> */}
         </div>
       </div>
-      <div className=" flex-1 flex justify-center px-10 pt-20 items-center">
-        <img src={dd} alt="" className=" min-w-[280px] h-full" />
+      <div className=" flex-1 flex justify-center pr-10 md:pr-0 pt-20 md:pt-0 items-center  md:mt-24  md:items-start">
+        <img src={dd} alt="" className=" min-w-[230px] h-full" />
       </div>
     </div>
   );

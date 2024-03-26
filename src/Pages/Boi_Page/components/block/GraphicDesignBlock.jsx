@@ -13,7 +13,7 @@ const GraphicDesignBlock = () => {
     });
   };
   return (
-    <div className="flex flex-col justify-center items-center px-10 md:px-40 py-10 gap-10">
+    <div className="flex flex-col justify-center items-center px-10 md:px-40 py-10 gap-10 md:gap-20">
       <p className=" font-medium text-xl lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
         Graphic design: Rebranding other assets and touchpoints
       </p>
@@ -22,7 +22,7 @@ const GraphicDesignBlock = () => {
           <div className=" flex justify-center items-center">
             <img src={boi6} alt="" />
           </div>
-          <div className="font-sans flex flex-col gap-3">
+          <div className="font-sans flex flex-col gap-3 xl:px-52 ">
             <p className="font-medium">Rebranding printable media</p>
             <p className=" text-sm text-[#7F818E]">
               I designed printable materials (guides, cards, reports) to align
@@ -35,7 +35,7 @@ const GraphicDesignBlock = () => {
           <div className=" flex justify-center items-center">
             <img src={boi7} alt="" />
           </div>
-          <div className="font-sans flex flex-col gap-3">
+          <div className="font-sans flex flex-col gap-3 xl:px-52">
             <p className="font-medium">Redesigning Google workspace</p>
             <p className=" text-sm text-[#7F818E]">
               BOI uses Google Workspace for efficient business operations. We
@@ -48,7 +48,7 @@ const GraphicDesignBlock = () => {
           <div className=" flex justify-center items-center">
             <img src={boi8} alt="" />
           </div>
-          <div className="font-sans flex flex-col gap-3">
+          <div className="font-sans flex flex-col gap-3 xl:px-52">
             <p className="font-medium">Designing social media templates</p>
             <p className=" text-sm text-[#7F818E]">
               We used Figma to create templates and tokens for BOI's social

@@ -15,7 +15,7 @@ const BrandingBlock = () => {
         <p className=" font-medium text-xl md:px-10 lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
           Delivered a seed for branding direction
         </p>
-        <p className="font-sans text-sm text-center">
+        <p className="font-sans text-sm text-center md:px-28">
           We created a comprehensive brand guideline for LifeGate Creators,
           featuring a distinctive logo, typography, color palette, and
           illustration bank. To prevent greenwashing, we chose a trendy neon

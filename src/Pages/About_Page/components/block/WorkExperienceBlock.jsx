@@ -5,8 +5,8 @@ import BoiButtons from "../../../Boi_Page/components/ui/BoiButtons";
 
 const WorkExperienceBlock = () => {
   return (
-    <div className="flex flex-col gap-5 py-10 md:py-20">
-      <p className=" text-xl">Work experience</p>
+    <div className="flex flex-col gap-5 md:gap-10 py-10 md:py-20">
+      <p className=" text-[1.625rem]">Work experience</p>
       <div className=" flex flex-1 gap-5 md:gap-16 flex-col md:flex-row">
         <div className=" flex flex-1 flex-col ">
           <div className=" border-l border-[#2A2D4333]  relative px-5 pb-5 text-start font-sans flex flex-col gap-3">
@@ -88,7 +88,7 @@ const WorkExperienceBlock = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-1">
+        <div className=" flex flex-1 md:px-10 md:py-10">
           <img src={abt2} alt="" />
         </div>
       </div>

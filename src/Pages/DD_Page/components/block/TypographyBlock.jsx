@@ -7,7 +7,7 @@ const TypographyBlock = () => {
         <img src={dd6} alt="" />
       </div>
       <div className="flex flex-col justify-center gap-3">
-        <p>Typography</p>
+        <p className="text-[1.25rem]">Typography</p>
         <p className="font-sans text-sm">
           Design Digest’s typeface provides a consistent, legible, and friendly
           typographic voice. It strikes a balance between not being overly

@@ -13,15 +13,15 @@ const Footer = () => {
               Interested?
             </p>
           </div>
-          <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-5">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-16 md:gap-5">
             <div className="text-4xl font-bold">
               <p>
                 Looking to collaborate
                 <br /> on your next project?
               </p>
             </div>
-            <div className=" flex justify-center items-center mb-5 mt-10 md:mr-40">
-              <button className=" bg-white text-[#2A2D43] px-6 py-3 w-36  font-sans font-medium rounded-full">
+            <div className=" flex justify-center items-center md:mr-40">
+              <button className=" bg-white text-[#2A2D43] px-5 py-2 w-36  font-sans font-medium rounded-full">
                 Get in touch
               </button>
             </div>
@@ -42,17 +42,17 @@ const Footer = () => {
               showcasing my passion for bringing ideas to life.
             </p>
           </div>
-          <div className="flex flex-col gap-3 md:flex-row md:justify-start md:gap-8 mt-16 md:items-center">
+          <div className="flex flex-col gap-5 md:flex-row md:justify-start md:gap-8 mt-16 md:items-center">
             <div>
-              <button className=" bg-[#F9F7F780] text-white px-10 py-3  font-sans font-thin rounded-full">
+              <button className=" bg-[#F9F7F780] text-white px-10 py-2  font-sans font-thin rounded-full">
                 View CV
               </button>
             </div>
-            <div className="flex items-center gap-8 font-sans text-gray-400">
+            <div className="flex items-center gap-8 font-sans  text-gray-400">
               <hr className="max-sm:hidden md:block w-16" />
               <p>Follow Me</p>
             </div>
-            <div className="flex gap-5 justify-center items-center ">
+            <div className="flex gap-5 md:justify-center items-center ">
               <FaLinkedinIn
                 size={20}
                 className=" text-gray-400 cursor-pointer"

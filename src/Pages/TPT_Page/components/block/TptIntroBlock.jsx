@@ -9,7 +9,7 @@ import tpttextmob from "../../../../assets/tpt/tpttextmob.png";
 
 const TptIntroBlock = () => {
   return (
-    <div className=" px-10 md:px-40 py-20 flex flex-col md:flex-row w-full md:gap-20  flex-1">
+    <div className=" px-10 md:px-40 pt-20 md:pt-0 md:py-20 flex flex-col md:flex-row w-full md:gap-20  flex-1">
       <div className=" flex-1 flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -49,10 +49,10 @@ const TptIntroBlock = () => {
         </div>
         <div className=" flex flex-col md:text-xs gap-3 text-[#2A2D43]">
           <div className="flex flex-col gap-3 ">
-            <div className="flex gap-3 max-sm:hidden ">
+            <div className="flex gap-1 max-sm:hidden ">
               <img src={btn1} alt="" className="w-[25%]" />
-              <img src={btn2} alt="" className="w-[25%]" />
-              <img src={btn3} alt="" className="w-[25%]" />
+              <img src={btn2} alt="" className="w-[30%]" />
+              <img src={btn3} alt="" className="w-[20%]" />
               <img src={btn4} alt="" className="w-[25%]" />
               {/* <BoiButtons name={"Product design"} />
               <BoiButtons name={"Craft developement"} />
@@ -64,7 +64,7 @@ const TptIntroBlock = () => {
         </div>
       </div>
       <div className=" flex-1 flex justify-center px-10 pt-20 items-center">
-        <img src={tpt} alt="" className=" min-w-[280px]" />
+        <img src={tpt} alt="" className=" min-w-[280px] h-full" />
       </div>
     </div>
   );

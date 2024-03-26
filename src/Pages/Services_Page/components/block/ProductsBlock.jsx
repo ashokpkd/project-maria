@@ -8,13 +8,13 @@ const ProductsBlock = () => {
   const backToTop = () => {
     window.scrollTo({
       top: 0,
-    behavior:'smooth'
+      behavior: "smooth",
     });
   };
   return (
-    <div className="flex flex-col md:gap-5 ">
+    <div className="flex flex-col md:gap-5  md:py-20">
       <div className="flex flex-col md:flex-row py-5 ">
-        <div className=" md:w-[50%] md:min-w-[40vw]">
+        <div className=" md:w-[50%] md:px-10 md:min-w-[40vw]">
           <img src={ideation} alt="" />
         </div>
         <div className="flex flex-col gap-2 flex-1 md:w-[50%] md:min-w-[40vw] md:px-28 py-10">
@@ -35,7 +35,7 @@ const ProductsBlock = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse py-5 ">
-        <div className=" md:w-[50%] md:min-w-[40vw]">
+        <div className=" md:w-[50%] md:px-10 md:min-w-[40vw]">
           <img src={dd} alt="" />
         </div>
         <div className="flex flex-col gap-2 flex-1 md:w-[50%] md:min-w-[40vw] md:px-28 py-10">
@@ -56,7 +56,7 @@ const ProductsBlock = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row py-5 ">
-        <div className=" md:w-[50%] md:min-w-[40vw]">
+        <div className=" md:w-[50%] md:px-10 md:min-w-[40vw]">
           <img src={db} alt="" />
         </div>
         <div className="flex flex-col gap-2 flex-1 md:w-[50%] md:min-w-[40vw] md:px-28 py-10">
@@ -78,7 +78,10 @@ const ProductsBlock = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center underline cursor-pointer" onClick={backToTop}>
+      <div
+        className="flex font-sans justify-center items-center border-b border-black w-[8rem] mb-10 cursor-pointer"
+        onClick={backToTop}
+      >
         <p>Back to the top</p>
         <IoMdArrowUp size={20} />
       </div>

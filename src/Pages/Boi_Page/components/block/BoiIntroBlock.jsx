@@ -16,7 +16,7 @@ const BoiIntroBlock = () => {
             Launching a new brand to embody BOI’s next big step.
           </p>
         </div>
-        <div className="text-sm  text-[#7F818E] font-sans flex flex-col gap-2">
+        <div className="text-sm  text-[#2A2D43] font-sans flex flex-col gap-2">
           <p>
             Board of Innovation is a global innovation firm, imagining
             tomorrow’s products, services & businesses and creating them today.
@@ -32,7 +32,7 @@ const BoiIntroBlock = () => {
             and social media.
           </p>
         </div>
-        <div className=" flex flex-col font-sans text-xs md:text-sm text-[#7F818E]">
+        <div className=" flex flex-col font-sans text-xs md:text-sm text-[#2A2D43]">
           <div className="flex justify-between items-center border-b border-gray-300 py-5 gap-8">
             <p>Timeframe</p>
             <p>10 months</p>
@@ -46,7 +46,7 @@ const BoiIntroBlock = () => {
             <p>Wordpress, Miro, Mural, Figma, Adobe Suite </p>
           </div>
         </div>
-        <div className=" flex flex-col md:text-xs gap-3 text-[#7F818E]">
+        <div className=" flex flex-col md:text-xs gap-3 text-[#2A2D43]">
           <img src={textboi} alt="" className=" max-sm:hidden" />
           <img src={textboimob} alt="" className=" sm:hidden" />
           {/* <div className="flex flex-col  md:flex-row gap-3">

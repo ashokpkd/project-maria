@@ -8,7 +8,7 @@ const IdeaBlock = () => {
         <p className=" font-medium text-xl md:px-10 lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
           Idea: Brand brilliance brought to life
         </p>
-        <p className="font-sans text-sm text-center md:px-40">
+        <p className="font-sans text-sm text-center lg:px-40">
           In the spirit of collaboration with the founders of Design Digest, we
           embarked on a journey to rewrite the rulebook of brand creation. The
           result? A new visual identity that practises beyond the Cookie Cutter

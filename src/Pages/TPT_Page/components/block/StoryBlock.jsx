@@ -5,7 +5,7 @@ const StoryBlock = () => {
     <div className=" flex flex-col flex-1 md:flex-row gap-10 md:gap-20 px-10 pb-10  md:px-40">
       <div className="flex flex-col justify-center gap-5 flex-1">
         <div className="flex flex-col gap-3">
-          <p>Story</p>
+          <p className="text-[1.25rem]">Story</p>
           <p className=" font-sans text-sm">
             In a world blending tradition and innovation, this project embraces
             artisans' timeless techniques. Staying true to their craft, we
@@ -15,7 +15,7 @@ const StoryBlock = () => {
           </p>
         </div>
         <div className="flex flex-col gap-3">
-          <p>Concept</p>
+          <p className="text-[1.25rem]">Concept</p>
           <p className=" font-sans text-sm">
             Our collection brings the garden back into urban living, echoing
             Bangalore's Garden City roots. From small spaces to vast landscapes,

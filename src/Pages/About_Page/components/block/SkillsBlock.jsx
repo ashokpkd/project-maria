@@ -5,7 +5,7 @@ const SkillsBlock = () => {
   return (
     <div className=" flex flex-col md:flex-row flex-1 gap-10 md:gap-20">
       <div className="flex flex-1 flex-col gap-5">
-        <p className="text-lg">Skills</p>
+        <p className="text-[1.625rem]">Skills</p>
         <div className="flex flex-col font-sans text-sm gap-3">
           <div className=" flex flex-col md:flex-row gap-3">
             {" "}
@@ -58,7 +58,7 @@ const SkillsBlock = () => {
         </div>
       </div>
       <div className=" flex flex-1 flex-col gap-5">
-        <p className="text-lg">Toolstack</p>
+        <p className="text-[1.625rem]">Toolstack</p>
         <img src={abt4} alt="" />
       </div>
     </div>

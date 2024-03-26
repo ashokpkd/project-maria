@@ -28,7 +28,7 @@ const Challengeblock = () => {
             better engagement while maximizing their resources.
           </p>
         </div>
-        <div className=" flex flex-col gap-3 md:w-[400px] lg:w-[400px] xl:w-[500px]">
+        <div className=" flex flex-col gap-3 max-md:py-5 md:w-[400px] lg:w-[400px] xl:w-[500px]">
           <img src={lg2} alt="" className=" max-w-96" />
         </div>
       </div>
@@ -55,13 +55,13 @@ const Challengeblock = () => {
             sustainability.
           </p>
         </div>
-        <div className=" flex flex-col gap-3 md:w-[400px] lg:w-[400px] xl:w-[500px]">
+        <div className=" flex flex-col gap-3 max-md:py-5 md:w-[400px] lg:w-[400px] xl:w-[500px]">
           <img src={lg3} alt="" className=" max-w-96" />
         </div>
       </div>
-      <div className=" flex flex-col gap-3 md:gap-10 md:flex-row border-b border-gray-400 py-10 md:py-20">
+      <div className=" flex flex-col gap-3 md:gap-10 md:flex-row py-10 md:py-20">
         <div className=" flex flex-col gap-3  md:w-[400px] lg:w-[400px] xl:w-[500px]">
-          <p className=" text-[1rem] text-[#5B61F3]">Outcome</p>
+          <p className=" text-[1rem]  text-[#5B61F3]">Outcome</p>
           <p className=" font-medium text-[1.25rem] font-serif">
             Finding a sweet spot for LG’s entry and propose a Creator centric
             solution
@@ -80,7 +80,7 @@ const Challengeblock = () => {
             initial low-fidelity prototypes for the platform.
           </p>
         </div>
-        <div className=" flex flex-col gap-3 md:w-[400px] lg:w-[400px] xl:w-[500px]">
+        <div className=" flex flex-col gap-3 max-md:py-5 md:w-[400px] lg:w-[400px] xl:w-[500px]">
           <img src={lg4} alt="" className=" max-w-96" />
         </div>
       </div>

@@ -13,8 +13,8 @@ const StrategyBlock = () => {
         </p>
       </div>
       <div className=" font-sans py-10 flex flex-col gap-5 md:flex-row md:gap-10">
-        <div className="flex flex-col gap-3 ">
-          <img src={svg1} className=" w-14" alt="" />
+        <div className="flex flex-col gap-3 pt-5 ">
+          <img src={svg1} className=" w-14 h-14" alt="" />
           <p className=" font-normal">Strategic project timeline</p>
           <p className=" text-[#7F818E] text-sm">
             Through a 4-week design research process, we engaged with potential
@@ -22,8 +22,8 @@ const StrategyBlock = () => {
             our team.
           </p>
         </div>
-        <div className="flex flex-col gap-3 ">
-          <img src={svg2} className=" w-14" alt="" />
+        <div className="flex flex-col gap-3 pt-5 ">
+          <img src={svg2} className=" w-14 h-14" alt="" />
           <p className=" font-normal">Company and competitor analysis</p>
           <p className=" text-[#7F818E] text-sm">
             The company offered a vast range of services. We turned our focus on
@@ -31,8 +31,8 @@ const StrategyBlock = () => {
             weaknesses.
           </p>
         </div>
-        <div className="flex flex-col gap-3 ">
-          <img src={svg3} className=" w-14" alt="" />
+        <div className="flex flex-col gap-3 pt-5 ">
+          <img src={svg3} className=" w-14 h-14" alt="" />
           <p className=" font-normal">Gen Z’s digital behavioral patterns </p>
           <p className=" text-[#7F818E] text-sm">
             Gen Z aims to integrate sustainability into daily life. Our research

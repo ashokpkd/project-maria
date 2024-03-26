@@ -8,7 +8,7 @@ const RoleAndTaskBlock = () => {
         <p className=" font-medium text-xl lg:text-2xl xl:text-3xl text-[#2A2D43]">
           Roles and tasks
         </p>
-        <p className="text-sm text-[#7F818E] font-sans flex flex-col gap-2 text-center">
+        <p className="text-sm  font-sans flex flex-col gap-2 text-center">
           It was essential to act as a bridge between the Business design and
           the Design department, aiming not only to execute the new brand
           guidelines, but also transform the function and performance of all its
@@ -18,7 +18,7 @@ const RoleAndTaskBlock = () => {
 
       <div className=" flex flex-col font-sans gap-3">
         <div className=" flex flex-col gap-5 md:flex-row">
-          <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg  md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="bg-[#F9F7F780] flex flex-col gap-1 px-3 py-3 rounded-lg  md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Innovation tool design </p>
             <p className=" text-[#7F818E] text-sm">
               Revamp innovation tools in Miro to strengthen of virtual client
@@ -29,7 +29,7 @@ const RoleAndTaskBlock = () => {
               <BsArrowDown />
             </p>
           </div>
-          <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="bg-[#F9F7F780] flex flex-col gap-1 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Website design</p>
             <p className=" text-[#7F818E] text-sm">
               Design assets, downloadable content & regulate brand during web
@@ -40,7 +40,7 @@ const RoleAndTaskBlock = () => {
               <BsArrowDown />
             </p>
           </div>
-          <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="bg-[#F9F7F780] flex flex-col gap-1 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Graphic design </p>
             <p className=" text-[#7F818E] text-sm">
               Implement new identity across publications, G- suite & art
@@ -54,19 +54,19 @@ const RoleAndTaskBlock = () => {
         </div>
 
         <div className=" flex flex-col gap-5 md:flex-row">
-          <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="bg-[#F9F7F780] flex flex-col gap-1 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Brand regulation</p>
             <p className=" text-[#7F818E] text-sm">
               Create tokens and conduct brand audits to maintain the new brand.
             </p>
           </div>
-          <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="bg-[#F9F7F780] flex flex-col gap-1 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Rebrand roll- out </p>
             <p className=" text-[#7F818E] text-sm">
               Create project timelines with the rebranding team.
             </p>
           </div>
-          <div className="bg-[#F9F7F780] flex flex-col gap-3 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="bg-[#F9F7F780] flex flex-col gap-1 px-3 py-3 rounded-lg md:w-[400px] lg:w-[400px] xl:w-[500px]">
             <p className=" font-medium">Client facing projects</p>
             <p className=" text-[#7F818E] text-sm">
               Provide design services to BOI’s client facing project apart from

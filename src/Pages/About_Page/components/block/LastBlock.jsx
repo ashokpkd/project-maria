@@ -10,10 +10,10 @@ const LastBlock = () => {
     });
   };
   return (
-    <div className=" pt-5 md:pt-20">
+    <div className="flex flex-col justify-center items-center pt-5 ">
       <CollaboratedCompanies />
       <div
-        className="flex justify-center items-center underline cursor-pointer pt-10 md:pt-20"
+        className="flex font-sans justify-center items-center border-b border-black w-[8rem] mb-10 cursor-pointer"
         onClick={backToTop}
       >
         <p>Back to the top</p>

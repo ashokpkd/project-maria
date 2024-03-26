@@ -29,7 +29,7 @@ const WorkApproachBlock = () => {
           impact.
         </p>
       </div>
-      <div className="flex flex-col gap-3 md:max-w-[70%] border-b  py-5 border-gray-400 ">
+      <div className="flex flex-col gap-3 md:max-w-[70%] py-5 border-gray-400 ">
         <p className=" text-md font-normal text-[#5B61F3] font-sans">
           Work approach #03
         </p>

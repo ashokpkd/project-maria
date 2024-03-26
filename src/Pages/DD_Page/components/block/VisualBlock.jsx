@@ -4,7 +4,7 @@ import dd4 from "../../../../assets/dd/dd4.png";
 
 const VisualBlock = () => {
   return (
-    <div className="flex gap-5 flex-col px-10 md:px-40 py-10">
+    <div className="flex gap-5 flex-col px-10 md:px-40 ">
       <p className=" font-medium text-xl md:px-10 lg:text-2xl xl:text-3xl text-[#2A2D43] text-center">
         Visual identity: Unmistakably brilliant
       </p>
@@ -15,12 +15,12 @@ const VisualBlock = () => {
         values- “Brilliance”.
       </p>
       <div className=" flex flex-col flex-1 md:flex-row gap-5 md:gap-20">
-        <div className="flex flex-1 py-20">
+        <div className="flex flex-1 md:py-20">
           <img src={dd3} alt="" />
         </div>
         <div className="flex flex-col flex-1 justify-center items-center md:justify-end md:pb-28 md:px-10 md:py-10 gap-5 md:gap-20">
           <div className=" flex flex-col  gap-2">
-            <p>Wordmark</p>
+            <p className="text-[1.25rem]">Wordmark</p>
             <p className="font-sans text-sm">
               A simply bold, yet bespoke workdmark of the company name stands as
               the centerpiece of their branding. This bespoke workmark is
@@ -36,7 +36,7 @@ const VisualBlock = () => {
             </p>
           </div>
           <div className=" flex flex-col gap-2">
-            <p>Logomark</p>
+            <p className="text-[1.25rem]">Logomark</p>
             <p className="font-sans text-sm ">
               This diamond inspired logomark, while not the primary logo, serves
               a crucial role as a versatile element in the brand's identity. It
@@ -48,7 +48,7 @@ const VisualBlock = () => {
           </div>
         </div>
       </div>
-      <div className=" flex w-full justify-center flex-1 items-center">
+      <div className=" flex w-full justify-center py-10 md:py-0 flex-1 items-center">
         <img src={dd4} alt="" className=" w-full" />
       </div>
     </div>

@@ -7,7 +7,7 @@ const BespokeBlock = () => {
     <div className=" flex flex-col px-10 md:py-10 md:px-40 gap-10 md:gap-20">
       <div className="flex flex-col flex-1 md:flex-row gap-10 md:gap-20 ">
         <div className="flex flex-col  gap-3 flex-1">
-          <p>Bespoke icons</p>
+          <p className="text-[1.25rem]">Bespoke icons</p>
           <p className="font-sans text-sm">
             I designed three bespoke icons for the company to represent their
             three company USP’s in the simplest form. They should be used to
@@ -19,29 +19,36 @@ const BespokeBlock = () => {
             abstract, yet symbolic representations of the three pillars which
             are:
           </p>
-          <div className=" flex flex-1 flex-col gap-10 py-10 md:px-10 font-sans">
-            <div>
-              <p className=" font-medium">#01.Beyond the Cookie Cutter</p>
-              <p className=" text-sm text-[#7F818E]">
-                “ We embrace uniqueness by devising extraordinary solutions that
-                defy the ordinary.”
-              </p>
+          <div className=" flex flex-1 flex-col gap-10 py-10   font-sans">
+            <div className=" flex gap-5 md:gap-16">
+              <p className="font-medium">01.</p>
+              <div className=" flex flex-col gap-3">
+                <p className=" font-medium">Beyond the Cookie Cutter </p>
+                <p className=" text-sm text-[#7F818E]">
+                  “ We embrace uniqueness by devising extraordinary solutions
+                  that defy the ordinary.”
+                </p>
+              </div>
             </div>
-            <div>
-              <p className=" font-medium">#02.Harness Data through Design</p>
-              <p className=" text-sm text-[#7F818E]">
-                “We don't just guess what works – we use an iterative and
-                analytical approach to see what works and why.”
-              </p>
+            <div className=" flex gap-5 md:gap-16">
+              <p className="font-medium">02.</p>
+              <div className=" flex flex-col gap-3">
+                <p className=" font-medium">Harness Data through Design</p>
+                <p className=" text-sm text-[#7F818E]">
+                  “We don't just guess what works – we use an iterative and
+                  analytical approach to see what works and why.”
+                </p>
+              </div>
             </div>
-            <div>
-              <p className=" font-medium">
-                #03.Unlocking Value with Simplicity
-              </p>
-              <p className=" text-sm text-[#7F818E]">
-                “We believe simplicity breeds the most impactful brands. Thats
-                where the value is.”
-              </p>
+            <div className=" flex gap-5 md:gap-16">
+              <p className="font-medium">03.</p>
+              <div className=" flex flex-col gap-3">
+                <p className=" font-medium">Unlocking Value with Simplicity</p>
+                <p className=" text-sm text-[#7F818E]">
+                  “We believe simplicity breeds the most impactful brands. Thats
+                  where the value is.”
+                </p>
+              </div>
             </div>
           </div>
         </div>

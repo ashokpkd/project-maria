@@ -7,7 +7,7 @@ import lgtextmob from "../../../../assets/lifegate/lgtextmob.png";
 
 const LifeGateIntroBlock = () => {
   return (
-    <div className=" px-10 gap-10 md:px-40 py-20  flex flex-col md:flex-row w-full  flex-1">
+    <div className=" px-10 gap-10 md:px-40 max-md:pt-20 md:py-20  flex flex-col md:flex-row w-full  flex-1">
       <div className=" flex-1 flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <p className="text-lg lg:text-2xl xl:text-3xl">
@@ -18,7 +18,7 @@ const LifeGateIntroBlock = () => {
             resonance.
           </p>
         </div>
-        <div className="text-sm  text-[#7F818E] font-sans flex flex-col gap-2">
+        <div className="text-sm   font-sans flex flex-col gap-2">
           <p>
             Founded in 2000, LifeGate (LG) is the first company in Italy to
             enter the large retail market with an organic product. It is a
@@ -34,7 +34,7 @@ const LifeGateIntroBlock = () => {
             available resources.
           </p>
         </div>
-        <div className=" flex flex-col font-sans text-xs md:text-sm text-[#7F818E]">
+        <div className=" flex flex-col font-sans text-xs md:text-sm ">
           <div className="flex justify-between items-center border-b border-gray-300 py-5 gap-8">
             <p>Timeframe</p>
             <p>4 weeks</p>
@@ -50,7 +50,7 @@ const LifeGateIntroBlock = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col md:text-xs gap-3 text-[#7F818E]">
+        <div className=" flex flex-col md:text-xs gap-3 ">
           <img src={lgtext} alt="" className=" max-sm:hidden" />
           <img src={lgtextmob} alt="" className=" sm:hidden" />
           {/* <div className="flex flex-col  md:flex-row gap-3">
@@ -69,8 +69,8 @@ const LifeGateIntroBlock = () => {
           </div> */}
         </div>
       </div>
-      <div className=" flex-1 flex justify-center px-10 md:mt-24  items-start">
-        <img src={lifegate} alt="" className=" min-w-[280px]" />
+      <div className=" flex-1 flex justify-center px-10 md:mt-24  items-center md:items-start">
+        <img src={lifegate} alt="" className=" min-w-[230px]" />
       </div>
     </div>
   );
