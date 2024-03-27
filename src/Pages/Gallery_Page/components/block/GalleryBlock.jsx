@@ -25,7 +25,7 @@ const GalleryBlock = () => {
     });
   };
   return (
-    <div className="flex flex-col px-8 gap-4 py-8 md:px-52">
+    <div className="flex flex-col justify-center items-center px-8 gap-4 py-8 md:px-52">
       <div className="flex flex-col gap-4 md:flex-row justify-center items-center ">
         <div>
           <img src={img1} alt="" />
@@ -93,7 +93,7 @@ const GalleryBlock = () => {
         <img src={img16} alt="" />
       </div>
       <div
-        className="flex justify-center items-center underline cursor-pointer"
+        className="flex font-sans justify-center items-center border-b border-black w-[8rem] md:my-16 cursor-pointer"
         onClick={backToTop}
       >
         <p>Back to the top</p>
