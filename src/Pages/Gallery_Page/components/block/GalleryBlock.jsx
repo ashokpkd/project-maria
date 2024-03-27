@@ -21,11 +21,11 @@ const GalleryBlock = () => {
   const backToTop = () => {
     window.scrollTo({
       top: 0,
-    behavior:'smooth'
+      behavior: "smooth",
     });
   };
   return (
-    <div className="flex flex-col px-8 gap-4 py-8 md:px-80">
+    <div className="flex flex-col px-8 gap-4 py-8 md:px-52">
       <div className="flex flex-col gap-4 md:flex-row justify-center items-center ">
         <div>
           <img src={img1} alt="" />
@@ -92,7 +92,10 @@ const GalleryBlock = () => {
       <div className="flex justify-center items-center">
         <img src={img16} alt="" />
       </div>
-      <div className="flex justify-center items-center underline cursor-pointer" onClick={backToTop}>
+      <div
+        className="flex justify-center items-center underline cursor-pointer"
+        onClick={backToTop}
+      >
         <p>Back to the top</p>
         <IoMdArrowUp size={20} />
       </div>

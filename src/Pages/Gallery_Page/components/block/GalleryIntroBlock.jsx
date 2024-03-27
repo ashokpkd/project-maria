@@ -2,8 +2,8 @@ import React from "react";
 
 const GalleryIntroBlock = () => {
   return (
-    <div className="flex flex-col justify-center text-center px-5 py-16 md:px-48 gap-10">
-      <p className="text-4xl font-bold lg:text-6xl xl:text-7xl">
+    <div className="flex flex-col justify-center text-center px-5 py-16 md:px-44 gap-10">
+      <p className="text-4xl font-bold lg:text-5xl xl:text-6xl">
         A personal curation of paintings, murals and illustrations.
       </p>
       <p className=" md:px-32">
